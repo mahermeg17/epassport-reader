@@ -14,7 +14,16 @@
     tools:context="bg.bozho.emrtdreader.MainActivity">
 
     <TextView
-        android:text="eMRTD Reader"
+        android:id="@+id/dg1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="New Text" />
+
+    <ImageView
+        android:id="@+id/dg2"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dg1"
+        android:layout_marginTop="42dp" />
 </RelativeLayout>
